@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:wght@300;400;500;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(https://images.unsplash.com/photo-1569199037095-ac29046ee23d?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: 'poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+
+.box h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.box small {
+    font-size: 15px;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+@media (min-width:576px){
+    h3{
+        font-size: 18px;
+    }
+    .box h2{
+        font-size: 30px;
+    }
+    .box {
+        height: 70px;
+        width: 100px;
+    }
+    .box .small{
+        font-size: 15px;
+    }
+}
+
+@media (min-width:768px){
+    h3{
+        font-size: 25px;
+    }
+    .box h2{
+        font-size: 50px;
+    }
+    .box {
+        height: 100px;
+        width: 100px;
+    }
+    .box .small{
+        font-size: 20px;
+    }
+}
